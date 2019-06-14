@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="200dp"
+        android:id="@+id/image_find_friend"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:background="@drawable/ic_mail_outline_black_24dp"/>
+
+    <TextView
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_find_friend"
+        android:textColor="@color/colorBlack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/empty_inbox"
+        android:id="@+id/tv_empty_inbox"
+
+        />
+    <Button
+        android:id="@+id/btn_find_friend"
+        app:layout_constraintTop_toBottomOf="@id/tv_empty_inbox"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="22dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search For Friends"
+        android:background="@color/cardview_light_background"
+        android:textColor="@color/colorBlack"/>
+</android.support.constraint.ConstraintLayout>

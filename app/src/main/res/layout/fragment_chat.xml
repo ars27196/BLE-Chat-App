@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".chat.ChatFragment">
+
+   <ProgressBar
+
+       android:id="@+id/progress_bar"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="top|center"
+
+       android:visibility="gone" />
+
+   <android.support.v7.widget.RecyclerView
+       android:id="@+id/recycler_view_chat"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+   </android.support.v7.widget.RecyclerView>
+
+      <Button
+          android:id="@+id/btn_find_friend"
+          android:layout_marginBottom="22dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center|bottom"
+          android:text="Search For Friends"
+          android:background="@color/cardview_light_background"
+          android:textColor="@color/colorBlack"/>
+
+</FrameLayout>

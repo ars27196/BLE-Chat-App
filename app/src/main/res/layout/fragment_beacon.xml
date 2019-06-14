@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    tools:context=".BeaconFragment">
+
+    <ToggleButton
+        android:id="@+id/tb_button_beacon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="170dp"
+        android:background="@drawable/disable"
+        android:textOff=""
+        android:textOn="" />
+
+
+        />
+
+
+    <TextView
+        android:id="@+id/location_beacon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="22dp"
+        android:textColor="@color/colorBlack"
+        />
+   <!-- <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_marginTop="180dp"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        />-->
+
+</FrameLayout>
