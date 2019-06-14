@@ -13,7 +13,7 @@ This app includes UUIDs for widely used serial profiles:
 - Texas Instruments CC254x  
 
 All BLE communication code is taken from the kai morich project on BLE Terminal (Link Below) and chat application is built upon it.
-https://github.com/kai-morich/SimpleBluetoothLeTerminal [Simple BluetoothLe Terminal]
+[Simple Bluetooth Low Energy Terminal](https://github.com/kai-morich/SimpleBluetoothLeTerminal) 
 
 ## Motivation
 
