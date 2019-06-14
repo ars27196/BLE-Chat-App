@@ -2,6 +2,9 @@ package de.kai_morich.simple_bluetooth_le_terminal;
 
 import android.support.v4.app.FragmentManager;
 
+import de.kai_morich.simple_bluetooth_le_terminal.BLE.SerialService;
+import de.kai_morich.simple_bluetooth_le_terminal.BLE.SerialSocket;
+
 public class Constants {
 
     // values have to be globally unique

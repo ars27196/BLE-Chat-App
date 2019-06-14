@@ -1,4 +1,4 @@
-package de.kai_morich.simple_bluetooth_le_terminal;
+package de.kai_morich.simple_bluetooth_le_terminal.BLE;
 
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothGatt;
@@ -18,6 +18,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.UUID;
+
+import de.kai_morich.simple_bluetooth_le_terminal.Constants;
+import de.kai_morich.simple_bluetooth_le_terminal.R;
 
 /**
  * wrap BLE communication into socket like class
@@ -71,7 +74,7 @@ public class  SerialSocket extends BluetoothGattCallback {
         };
     }
 
-    void disconnect() {
+    public void disconnect() {
         Log.d(TAG, "disconnect");
         listener = null; // ignore remaining data and errors
         device = null;

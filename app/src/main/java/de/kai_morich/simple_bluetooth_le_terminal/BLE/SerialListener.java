@@ -1,4 +1,4 @@
-package de.kai_morich.simple_bluetooth_le_terminal;
+package de.kai_morich.simple_bluetooth_le_terminal.BLE;
 
 public interface SerialListener {
     void onSerialConnect      ();

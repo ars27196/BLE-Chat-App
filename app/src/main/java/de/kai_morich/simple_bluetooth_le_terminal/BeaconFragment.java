@@ -37,6 +37,10 @@ import com.google.android.gms.maps.model.MarkerOptions;
 
 import java.util.List;
 
+import de.kai_morich.simple_bluetooth_le_terminal.BLE.SerialListener;
+import de.kai_morich.simple_bluetooth_le_terminal.BLE.SerialService;
+import de.kai_morich.simple_bluetooth_le_terminal.BLE.SerialSocket;
+
 
 /**
  * A simple {@link Fragment} subclass.

@@ -1,14 +1,12 @@
-package de.kai_morich.simple_bluetooth_le_terminal;
+package de.kai_morich.simple_bluetooth_le_terminal.BLE;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.app.Service;
-import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
-import android.content.IntentFilter;
 import android.os.Binder;
 import android.os.Build;
 import android.os.Handler;
@@ -17,9 +15,11 @@ import android.os.Looper;
 import android.support.annotation.Nullable;
 import android.support.v4.app.NotificationCompat;
 
-import java.io.IOException;
 import java.util.LinkedList;
 import java.util.Queue;
+
+import de.kai_morich.simple_bluetooth_le_terminal.Constants;
+import de.kai_morich.simple_bluetooth_le_terminal.R;
 
 /**
  * create notification and queue serial data while activity is not in the foreground

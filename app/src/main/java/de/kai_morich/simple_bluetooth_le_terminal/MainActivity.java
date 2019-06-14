@@ -6,6 +6,9 @@ import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
+import de.kai_morich.simple_bluetooth_le_terminal.BLE.DevicesFragment;
+import de.kai_morich.simple_bluetooth_le_terminal.BLE.PairActivity;
+
 public class MainActivity extends AppCompatActivity implements FragmentManager.OnBackStackChangedListener {
 
     @Override

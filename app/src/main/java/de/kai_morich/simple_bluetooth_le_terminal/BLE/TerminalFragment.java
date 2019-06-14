@@ -1,4 +1,4 @@
-package de.kai_morich.simple_bluetooth_le_terminal;
+package de.kai_morich.simple_bluetooth_le_terminal.BLE;
 
 import android.app.Activity;
 import android.bluetooth.BluetoothAdapter;
@@ -22,6 +22,10 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import de.kai_morich.simple_bluetooth_le_terminal.Constants;
+import de.kai_morich.simple_bluetooth_le_terminal.HomeActivity;
+import de.kai_morich.simple_bluetooth_le_terminal.R;
 
 public class TerminalFragment extends Fragment implements ServiceConnection, SerialListener {
 

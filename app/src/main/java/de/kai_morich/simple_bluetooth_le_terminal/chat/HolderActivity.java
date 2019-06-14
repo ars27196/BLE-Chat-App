@@ -19,16 +19,15 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.Calendar;
-import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.List;
 
 import de.kai_morich.simple_bluetooth_le_terminal.Constants;
 import de.kai_morich.simple_bluetooth_le_terminal.GPSTracker;
 import de.kai_morich.simple_bluetooth_le_terminal.R;
-import de.kai_morich.simple_bluetooth_le_terminal.SerialListener;
-import de.kai_morich.simple_bluetooth_le_terminal.SerialService;
-import de.kai_morich.simple_bluetooth_le_terminal.SerialSocket;
+import de.kai_morich.simple_bluetooth_le_terminal.BLE.SerialListener;
+import de.kai_morich.simple_bluetooth_le_terminal.BLE.SerialService;
+import de.kai_morich.simple_bluetooth_le_terminal.BLE.SerialSocket;
 import de.kai_morich.simple_bluetooth_le_terminal.database.ChatDatabase;
 import de.kai_morich.simple_bluetooth_le_terminal.database.ChatMessage;
 

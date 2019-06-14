@@ -1,4 +1,4 @@
-package de.kai_morich.simple_bluetooth_le_terminal;
+package de.kai_morich.simple_bluetooth_le_terminal.BLE;
 
 import android.Manifest;
 import android.app.AlertDialog;
@@ -27,6 +27,9 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.Collections;
+
+import de.kai_morich.simple_bluetooth_le_terminal.Constants;
+import de.kai_morich.simple_bluetooth_le_terminal.R;
 
 /**
  * show list of BLE devices

@@ -26,7 +26,7 @@
             android:name=".HomeActivity"
             android:label="@string/title_activity_home"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".PairActivity">
+        <activity android:name=".BLE.PairActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -38,7 +38,7 @@
             android:label="@string/app_name"
             android:windowSoftInputMode="stateHidden|adjustResize" />
 
-        <service android:name=".SerialService" />
+        <service android:name=".BLE.SerialService" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"

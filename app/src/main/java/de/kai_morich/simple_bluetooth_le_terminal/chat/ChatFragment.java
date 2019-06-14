@@ -26,9 +26,9 @@ import java.util.List;
 
 import de.kai_morich.simple_bluetooth_le_terminal.Constants;
 import de.kai_morich.simple_bluetooth_le_terminal.R;
-import de.kai_morich.simple_bluetooth_le_terminal.SerialListener;
-import de.kai_morich.simple_bluetooth_le_terminal.SerialService;
-import de.kai_morich.simple_bluetooth_le_terminal.SerialSocket;
+import de.kai_morich.simple_bluetooth_le_terminal.BLE.SerialListener;
+import de.kai_morich.simple_bluetooth_le_terminal.BLE.SerialService;
+import de.kai_morich.simple_bluetooth_le_terminal.BLE.SerialSocket;
 
 
 /**

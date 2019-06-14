@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/constraint_layout_pair"
-    android:background="@color/colorPrimaryDark"    tools:context=".PairActivity">
+    android:background="@color/colorPrimaryDark"    tools:context=".BLE.PairActivity">
 
     <ImageView
         app:layout_constraintStart_toStartOf="parent"
